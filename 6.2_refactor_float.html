@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa98044e1d.js" crossorigin="anonymous"></script>
+    <title>Web Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 30px 30px;
+            padding: 30px 30px;
+            display: block;
+            width: auto;
+        }
+
+        ul {
+            list-style-type: circle;
+        }
+
+        .header {
+            display: flex;
+            width: calc(100%-20px);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main {
+            padding: 10px 10px;
+            background-color: rgb(230, 200, 214);
+            text-align: center;
+            font-family: "Sofia", sans-serif;
+            width: 68%;
+            float: right;
+        }
+
+        .aside {
+            float: left;
+            width: 30%;
+            display: block;
+        }
+
+        .main h1 {
+            color: rgb(65, 158, 158);
+        }
+
+        .footer {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            clear: both;
+        }
+
+        .button {
+            background-color: rgb(65, 158, 158);
+            border: none;
+            border-radius: 15px;
+            color: rgb(230, 200, 214);
+            margin: 30px 30px;
+            padding: 15px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: "Sofia", sans-serif;
+            clear: both;
+        }
+
+        .button:hover {
+            background-color: rgb(27, 99, 99);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1> Nibras Misk</h1>
+    </header>
+
+
+    <aside class="aside">
+        <img src="./imgs/Nibras.jpg" width="250px" alt="Nibras photo" />
+    </aside>
+
+    <article class="main">
+        <h1>My name is Nibras Misk</h1>
+        <h2>I am a programmer </h2>
+        <p>
+            I studied a Bachlore degree of <b>Computer Science</b> and Diploma of <b>Education</b>, I worked as a school
+            teacher for
+            computer lab and technology subjects for one year and a half, after that I worked as a teacher assistant at
+            Birzeit university for computer labs, teaching Java, C , Linux and data structues for two years and now I'm
+            joining the bootcapm.
+        </p>
+        <h3>Here you can find me</h3>
+        <nav>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+
+            <a href="https://www.linkedin.com/in/nibras-m-3101a7150" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://github.com/NibrasM" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        </nav>
+    </article>
+    <footer class="footer">
+        <button class="button" type="button" onclick="alert('Thank you for viewing my profile!')">Click to get a
+            message!</button>
+    </footer>
+</body>
+
+</html>
